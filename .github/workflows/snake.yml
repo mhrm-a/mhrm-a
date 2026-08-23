@@ -1,2 +1,28 @@
-- name: generate-snake-game-from-github-contribution-grid
-  uses: Platane/snk@v3.5.0
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # هر روز نیمه‌شب اجرا می‌شه
+  workflow_dispatch:        # امکان اجرای دستی از تب Actions
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generate snake animation
+        uses: isitreallyalive/snkgen@v3.3.0
+        with:
+          github_user_name: mhrm-a
+          outputs: |
+            github-snake.svg?palette=github-light
+            github-snake-dark.svg?palette=github-dark
+
+      - name: Push output to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: .
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
