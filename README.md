@@ -27,10 +27,9 @@ Backend-leaning full-stack developer. Currently building **calibration-lab opera
 Building the backend and data model for a **multi-tenant calibration-lab platform**: entity design around instruments, calibration work orders, and certificates as regenerable views over raw stored measurement data (not just final PDF values) — with RBAC across lab roles, full audit logging, and a configuration-driven approach so new measurement disciplines (pressure, temperature, mass, etc.) don't require schema rewrites. Backend on NestJS/Prisma/PostgreSQL with BullMQ for async jobs; frontend on Next.js with TanStack Query.
 
 ---
-<p align="center">
-  <img src="./profile/stats.svg" height="180" alt="GitHub Stats">
-  <img src="./profile/top-langs.svg" height="180" alt="Top Languages">
-</p>
+
+<picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mhrm-a/mhrm-a/output/github-snake-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mhrm-a/mhrm-a/output/github-snake.svg"> <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/mhrm-a/mhrm-a/output/github-snake.svg"> </picture>
+
 ---
 
 <p align="center">
