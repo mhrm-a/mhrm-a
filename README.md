@@ -28,15 +28,4 @@ Building the backend and data model for a **multi-tenant calibration-lab platfor
 
 ---
 
-<picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mhrm-a/mhrm-a/output/github-snake-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mhrm-a/mhrm-a/output/github-snake.svg"> <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/mhrm-a/mhrm-a/output/github-snake.svg"> </picture>
-
----
-
-<p align="center">
-  <img src="./profile/stats.svg" height="180" alt="GitHub Stats">
-  <img src="./profile/top-langs.svg" height="180" alt="Top Languages">
-</p>
-
----
-
 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/mohammad-hosein-rahbarimehr-789b20325/)
