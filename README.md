@@ -36,8 +36,10 @@ Building the backend and data model for a **multi-tenant calibration-lab platfor
 
 ---
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mhrm-a&show_icons=true&theme=vue-dark&hide_border=true)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mhrm-a&layout=compact&theme=vue-dark&hide_border=true)](https://github.com/mhrm-a)
+<p align="center">
+  <img src="./profile/stats.svg" height="180" alt="GitHub Stats">
+  <img src="./profile/top-langs.svg" height="180" alt="Top Languages">
+</p>
 
 ---
 
